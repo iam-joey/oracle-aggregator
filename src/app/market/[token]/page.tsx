@@ -4,7 +4,7 @@ import PriceView from "@/components/PriceView";
 import { useParams } from "next/navigation";
 import React from "react";
 
-function page() {
+function Page() {
   const { token } = useParams();
   return (
     <div className="text-white">
@@ -14,4 +14,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
